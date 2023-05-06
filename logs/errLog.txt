@@ -15,3 +15,5 @@
 20230414	22:20:06	2c6b178c-3113-411e-a7d2-0dfd991e37d3	SyntaxError: Unexpected token ' in JSON at position 1
 20230422	16:50:21	6cd3c925-8f24-4499-b787-07b7678b9767	ReferenceError: code is not defined
 20230422	16:51:32	c8e012a9-492d-468e-ae8b-9eb894ec2908	ReferenceError: code is not defined
+20230506	13:44:32	771bff70-4966-430a-aaa2-f337225e9eb2	ReferenceError: whitelist is not defined
+20230506	13:48:41	955ac3cc-e750-4877-bfee-4590a271819e	ReferenceError: whitelist is not defined

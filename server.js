@@ -4,11 +4,13 @@ const app = express();
 const path = require('path');
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
-const {logger} = require('./middleware/logEvents');
+const {logger, logEvents} = require('./middleware/logEvents');
 const {errorHandler} = require('./middleware/errorHandler');
 const mongoose = require('mongoose');
 const connectDB = require('./config/dbConn');
-const PORT = process.env.port || 3500;
+const send404 = require('./middleware/send404');
+
+const PORT = process.env.port || 3000;
 
 //Connect to MongoDB
 connectDB();

@@ -1,6 +1,6 @@
 const statesData = require('../model/statesData.json');
 
-function validateStateCode(stateCode) {
+function verifyStates(stateCode) {
     // Find the state object that matches the state code
     const state = statesData.find(s => s.code === stateCode.toUpperCase());
 
@@ -13,4 +13,4 @@ function validateStateCode(stateCode) {
     return true;
 }
 
-module.exports = validateStateCode;
+module.exports = verifyStates;
