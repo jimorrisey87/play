@@ -1,6 +1,6 @@
-const State = require('../models/State');
+const State = require('../model/State');
 const validateStateCode = require("../middleware/validateStateCode");
-const statesData = require('../models/statesData.json');
+const statesData = require('../model/statesData.json');
 
 const verifyStateCode = async (req, res, next) => {
     const stateCode = req.params.state;
@@ -12,8 +12,7 @@ const verifyStateCode = async (req, res, next) => {
 };
 
 /* 
-    params: stateData - an array of state objects
-*/
+    params: stateData - an array of state objects*/
 const addFunFacts = async (stateData) => {
     const stateDataWithFunFacts = stateData.map(async s => {
         const stateDBData = await State.findOne({ stateCode: s.code }).exec();

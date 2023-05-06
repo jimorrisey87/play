@@ -26,7 +26,7 @@ app.use('/',express.static(path.join(__dirname, '/public')));
 
 //set root route and states route
 app.use('/', require('./routes/root'));
-app.use('/states', require('./routes/api/states'));
+app.use('/states', require('./routes/states'));
 
 //all other routes 
 app.all( '*', (req,res) => { 
