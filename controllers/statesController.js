@@ -1,5 +1,5 @@
 const State = require('../model/State');
-const validateStateCode = require("../middleware/validateStateCode");
+const verifyStates = require("../middleware/verifyStates");
 const statesData = require('../model/statesData.json');
 
 const verifyStateCode = async (req, res, next) => {

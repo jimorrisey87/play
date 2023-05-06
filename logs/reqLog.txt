@@ -342,3 +342,5 @@
 20230422	21:45:42	251eec64-fa8d-4163-99e3-8b0a72137925	PATCH	$undefined	/states/OR/
 20230422	21:45:52	afa3fea5-ed08-46ff-b35b-6b32cb9147a6	PATCH	$undefined	/states/OR/funfact
 20230422	21:46:05	247c9892-a814-4b21-8e21-de577d5d812b	PATCH	$undefined	/states/OR/funfact
+20230506	13:36:08	bac74cd3-4494-4b56-bacf-8267aa8a4ddf	GET	$undefined	/states
+20230506	13:36:37	f117608a-bb50-4d71-9597-618550b529de	GET	$undefined	/
